@@ -67,7 +67,7 @@ card_b_image = PhotoImage(file="images/card_back.png")
 
 # "Right" Button
 right = PhotoImage(file="images/right.png")
-right_button = Button(image=right, highlightthickness=0, border=0, command= remove_card)
+right_button = Button(image=right, highlightthickness=0, border=0, command=remove_card)
 right_button.grid(column=1, row=1, )
 
 # "Wrong" button
